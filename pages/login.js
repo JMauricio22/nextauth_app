@@ -42,7 +42,7 @@ const Signin = ({ providers }) => {
               className={`btn ${colors[provider.name]}`}
               onClick={() =>
                 signIn(provider.id, {
-                  callbackUrl: 'http://localhost:3000',
+                  callbackUrl: process.env.NEXT_PUBLIC_VERCEL_URL,
                 })
               }
             >
