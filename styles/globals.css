@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* --github-color: '#24292f'; */
+
+@layer components {
+  .btn {
+    @apply w-44 text-xl h-auto font-bold py-2 px-4 border-2 rounded-sm hover:text-white;
+  }
+
+  .btn-facebook {
+    @apply hover:bg-[#3f64ab] border-[#3f64ab] text-[#3f64ab];
+  }
+
+  .btn-github {
+    @apply hover:bg-[black] border-[black] text-[black];
+  }
+
+  .btn-google {
+    @apply hover:bg-[#4286f5] border-[#4286f5] text-[#4286f5];
+  }
+}

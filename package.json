@@ -2,11 +2,15 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "dev:debug": "NODE_OPTIONS='--inspect' next dev",
     "build": "next build",
     "start": "next start"
   },
   "dependencies": {
-    "next": "latest",
+    "@headlessui/react": "^1.6.5",
+    "@heroicons/react": "^1.0.6",
+    "next": "^12.2.0",
+    "next-auth": "^4.7.0",
     "react": "18.1.0",
     "react-dom": "18.1.0"
   },
