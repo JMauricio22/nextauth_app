@@ -26,7 +26,7 @@ Log in with different providers provided by the nextauth library and get a token
 - [NextAuth](https://next-auth.js.org/)
 
 ## Deploy
-[Web site 🚀]()
+[Web site 🚀](https://nextauth-app-blond.vercel.app)
 
 ## Features
 
